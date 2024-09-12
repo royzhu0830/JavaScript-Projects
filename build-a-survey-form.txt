@@ -9,7 +9,7 @@
   </head>
   <body>
     <h1 id="title">Best Raptors Survey</h1>
-    <p id="description">Fill out form so we know your shit opinion</p>
+    <p id="description">Fill out form so we know your opinion</p>
     <form id="survey-form">
       <fieldset>
         <label for="name" id="name-label">Enter your name: <input id="name" name = "name" type="text" placeholder="name"required /></label>
