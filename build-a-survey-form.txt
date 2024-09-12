@@ -1,0 +1,120 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Best Raptors Player Survey</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Best Raptors Survey</h1>
+    <p id="description">Fill out form so we know your shit opinion</p>
+    <form id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Enter your name: <input id="name" name = "name" type="text" placeholder="name"required /></label>
+        <label for="email" id="email-label">Enter your email: <input id="email" name="email"placeholder="email" type="email" required /></label>
+        <label for="number" id="number-label">How many games will the Raptors win: <input id="number" type="number" placeholder="40" min="0" max="82" required /></label>
+        </fieldset>
+        <fieldset>
+        <label for="drop" id="drop">Which direction should the Raptors go?      <select id="dropdown" name="drop" required>
+          <option value="">(select one)</option>
+          <option value="1">Tank for Flagg</option>
+          <option value="2">Sign veterans, compete for the playoffs</option>
+          <option value="3">Trade draft capital, try to go for championship</option>
+          </select></label>
+        <label for="drop" id="drop">Which rookie are you most excited for?<select id="dropdown" name="drop" required>
+          <option value="">(select one)</option>
+          <option value="1">Ulrich Chomche</option>
+          <option value="2">Jonathan Mogbo</option>
+          <option value="3">Jamal Shead</option>
+          <option value="4">Ja'Kobe Walter</option>
+          <option value="5">Branden Carlson</option>
+          <option value="6">Other</option>
+
+          </select></label>
+        
+      </fieldset>
+      <fieldset>
+        <legend>Who's the best player in Raptors history?</legend>
+        <label for="Lowry"><input value="K-Low" name="history" type="radio" class="inline" checked/> Kyle Lowry</label>
+        <label for="Kawhi"><input value="Klaw" name="history" type="radio" class="inline"/> Kawhi Leonard</label>
+        <label for="Demar"><input value="DeRozan" name="history" type="radio" class="inline" /> Demar DeRozan</label>
+        <label for="Bosh"><input value="CBosh" name="history" type="radio" class="inline"/> Chris Bosh</label>
+        <label for="Carter"><input value="VC" name="history" type="radio" class="inline"/> Vince Carter</label>
+
+        <legend>Who should the Raptors keep (excluding rookies)?</legend>
+        <label for="Scottie"><input value="Scottie"class="inline" type="checkbox" name="current" checked />Scottie Barnes</label>
+        <label for="RJ"><input value = "RJ"class="inline" type="checkbox" name="current" />RJ Barrett</label>
+        <label for="KO"><input value = "KO"class="inline" type="checkbox" name="current" />Kelly Olynyk</label>
+        <label for="IQ"><input value = "IQ"class="inline" type="checkbox" name="current" />Immanuel Quickley</label>
+        <label for="GT"><input value = "GT"class="inline" type="checkbox" name="current" />Garrett Temple</label>
+        <label for="DM"><input value = "DM"class="inline" type="checkbox" name="current" />Davion Mitchell</label>
+        <label for="JP"><input value = "JP"class="inline" type="checkbox" name="current" />Jakob Poeltl</label>
+        <label for="BB"><input value = "BB"class="inline" type="checkbox" name="current" />Bruce Brown</label>
+        <label for="GD"><input value = "GD"class="inline" type="checkbox" name="current" />Gradey Dick</label>
+        <label for="CB"><input value = "CB"class="inline" type="checkbox" name="current" />Chris Boucher</label>
+        <label for="OA"><input value = "OA"class="inline" type="checkbox" name="current" />Ochai Ogbaji</label>
+        <label for="rec">Any recommendations for what the Raps should do next?<textarea id="rec"name="rec"rows="10"cols="40"placeholder="Keep selling players for young pieces"></textarea></label>
+      </fieldset>
+      <input id="submit"type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+h1, p{
+  text-align: center;
+  margin: 1em auto;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: black;
+  color: rgb(255,0,0);
+  font-family: Tahoma;
+  font-size: 16px;
+  
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #3b3b4f;
+}
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color:white;
+  min-width: 300px;
+}
+
+** end of undefined **
+
